@@ -1,6 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+st. set_page_config(layout="wide")
+
 st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png", width=100)
 st.sidebar.header("Custom Report #2")
 
